@@ -1,0 +1,13 @@
+{
+	"config": {
+		"waitTime": 5,
+		"width": 1920,
+		"height": 1080,
+		"duration": 10,
+		"nameprefix": "VideoTest",
+		"outputdir": "C:/Users/tfs94/Documents/OutputTest",
+		"fileformat": ".mp4",
+		"codec": "x264"
+		}
+	
+}
