@@ -10,7 +10,7 @@ try:
     config = json.load(json_file)['config']
     
     print("S1: Configuration loaded successfully")    
-    input("Press Enter to continue...")
-
+    #input("Press Enter to continue...")
+    VideoRecorder.StartVideoCapture(config)
 except Exception as e:
     print("Error: "+str(e))
